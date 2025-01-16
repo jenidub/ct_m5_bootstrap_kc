@@ -1,0 +1,51 @@
+/* Google Font Utility Classes */
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Global Styling */
+* {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background-color: #03045e;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+button {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+}
+
+/* Class Level Element Styling */
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.form-text {
+    color: white;
+    font-style: italic;
+}
