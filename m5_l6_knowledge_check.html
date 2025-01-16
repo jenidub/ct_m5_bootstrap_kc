@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./m5_l6_knowledge_check.css">
 </head>
 <body>
-    <header class="my-5 mx-3 px-3 text-center">
+    <header class="my-3 mx-3 px-3 text-center">
         <img class="img-fluid my-3" src="https://placehold.co/600x400" alt="Placeholder Image #1">
         <h1 class="">Welcome to the JeniDub Consulting Family!</h1>
         <p>
@@ -16,46 +16,47 @@
             website needs. Please fill out the form below and we will get in 
             touch with you to sign a partnership agreement for your upcoming project.
         </p>
-        <div>
-            <button type="button" class="btn btn-primary mr-2">Click for More Info</button>
-            <button type="button" class="btn btn-secondary">Click to Call button</button>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary m-2 col-sm-8 col-md-6">Click for More Info</button>
+            <button type="button" class="btn btn-secondary m-2 col-sm-8 col-md-5">Click to Call button</button>
         </div>
     </header>
     <main class="container-fluid">
-        <div class="my-3 d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center my-3">
             <img class="img-fluid rounded-circle" src="https://placehold.co/400x250" alt="Rounded Info Image">
         </div>
         <form class="needs-validation" novalidate>
             <!-- First and Last Name Row -->
             <div class="row m-3">
-                <div class="col">
+                <div class="col-sm-12 col-md-6 my-2">
                     <label for="userFirst" class="form-label">Organization Contact First Name</label>
                     <input type="text" class="form-control" id="userFirst" aria-describedby="firstNameHelp" required>
                     <div id="firstNameHelp" class="form-text">Please your organization contact's first name</div>
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6 my-2">
                     <label for="userLast" class="form-label">Organization Contact Last Name</label>
                     <input type="text" class="form-control" id="userLast" aria-describedby="lastNameHelp" required>
                     <div id="lastNameHelp" class="form-text">Please your organization contact's last name</div>
                 </div>
             </div>
 
-            <!-- Email Field Row -->
+            <!-- Email and Password Fields Row -->
             <div class="row m-3">
-                <label for="userEmail" class="form-label">Organization Contact Business Email</label>
-                <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">Please use a business email for your business</div>
-            </div>
+                <div class="col-sm-12 col-md-6 my-2">
+                    <label for="userEmail" class="form-label">Organization Contact Business Email</label>
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">Please use a business email for your business</div>
+                </div>
 
-            <!-- Password Field Row -->
-            <div class="row m-3">
-                <label for="userPass" class="form-label">Account Password</label>
-                <input type="password" class="form-control" id="userPass" aria-describedby="passHelp" required>
-                <div id="passHelp" class="form-text">Password must include 1 capital letter, 1 lower case letter, 1 number, and 1 special character</div>
+                <!-- Password Field Row -->
+                <div class="col-sm-12 col-md-6 my-2">
+                    <label for="userPass" class="form-label">Account Password</label>
+                    <input type="password" class="form-control" id="userPass" aria-describedby="passHelp" required>
+                    <div id="passHelp" class="form-text">Password must include 1 capital letter, 1 lower case letter, 1 number, and 1 special character</div>
+                </div>
             </div>
-
             <!-- Agree to Terms Row -->
-            <div class="form-check my-3">
+            <div class="form-check my-3 px-5">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
                 <label class="form-check-label" for="flexCheckDefault">
                     By clicking 'Agree' or using this website, you acknowledge that you have read, understood, and agree to our Terms of Service and Privacy Policy
